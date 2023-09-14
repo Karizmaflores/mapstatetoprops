@@ -3,6 +3,7 @@ import { Card, CardContent, CardActions, Divider } from '@mui/material'
 import { Link } from 'react-router-dom'
 
 const Home = (props) => {
+    console.log(props);
     return (
         <div className="card-container">
             {/* Change cars to props.cars and remove the cars.json import above */}

@@ -1,5 +1,5 @@
 import {connect} from 'react-redux';
-import Car from '../containers/Car';
+import Car from '../components/Car';
 
 const mapStateToProps = (state) => {
     return{
